@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./master.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+
+
+@media (max-width: 1200px) {
+
+.home_page ,.home_text ,.footer  {
+    flex-direction: column;
+ align-items: center;
+}
+}
+        @media (max-width: 1200px) {
+
+            .services_cont,
+            .about_page {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+.about_text{
+    width: 469px;
+}
+
+
+@media (max-width: 920px) {
+
+    .about_text{
+        width: 300px;
+
+}
+}
+
+ @media (max-width: 920px) {
+
+.contact-info{
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+.description1{
+
+
+left: 20%;
+top: 10%;
+}
+
+.description2{
+left: -20%;
+top: 10%;
+
+}
+@media (max-width: 992px) {
+.description1 , .description2{
+left: 0px;
+top: 0;
+
+    }
+}
+
+.featured_img {
+width: 530px;
+}
+
+@media (max-width: 1000px) {
+    .featured_img{
+        width: 300px;
+    }
+}
+@media (max-width: 759px) {
+  .third_pic {
+        margin-top: -90px !important; 
+    }
+}
+
+@media (max-width: 540px) {
+    .third_rout  ,.second_rout ,.third_pic  {
+        margin-top:   0px !important; 
+    }
+}
+
+.highlight {
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(108.35deg, #FC4A1A -36.03%, #F7B733 128.44%);
+    position: relative;
+    z-index: 1;
+}
+.input_form {
+    padding: 2px;
+    width: 200px;
+    height: 40px;
+    border-radius: 80px;
+    background-image: linear-gradient(#212529, #212529), linear-gradient(108.35deg, #FC4A1A -36.03%, #F7B733 128.44%);
+    background-origin: content-box;
+    background-clip: content-box, border-box;
+    border: none;
+    outline: none;
+    text-align:calc();
+    color: white;
+}
+
+.gradient-border {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 3px;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-image: linear-gradient(#212529, #212529), linear-gradient(108.35deg, #FC4A1A -36.03%, #F7B733 128.44%);
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            margin: 20px;
+        }
+
+        .input_form::placeholder {
+    text-indent: 20px; 
+}
+        .portfolio-page img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+.gradient_text{
+
+    background: linear-gradient(108.35deg, #FC4A1A -36.03%, #F7B733 128.44%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+     
+* {
+
+-webkit-box-sizing: border-box;
+
+-moz-box-sizing: border-box;
+
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+
+}
+.Testimonial p{
+
+    width: 310px ;
+
+
+}
+    </style>
+</head>
+
+<body style=" padding: 0;
+margin: 0;">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light pb-5" style="background-color:  #27323E;">
+        <div class="container ">
+
+            <a class="navbar-brand text-light " href="#">Beans <span class="gradient_text">Studios</span></a>
+
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                
+                style="background: linear-gradient(108.35deg, #FC4A1A -36.03%, #F7B733 128.44%);
+                 width: 40px; height: 40px; border: none;
+                 border-radius: 50%; display: flex; justify-content: center; align-items: center; color:transparent; ">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ms-4">
+                        <a class="nav-link text-light " aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item ms-4">
+                        <a class="nav-link text-light" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item ms-4">
+                        <a class="nav-link text-light" href="#">Features</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link text-light" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link text-light" href="#">Services</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link text-light" href="#">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of nav bar -->
+
+    <!-- Start of home page -->
+
+    <div class="container-fluid  home_page  pt-5 pb-5  text-light d-flex justify-content-evenly "   
+      style="background-color:  #27323E; ">
+
+        <div class=" pt-5 d-flex flex-column  home_text">
+            <h6 class=" d-flex align-items-center justify-content-center fs-5 " 
+            style="background: linear-gradient(108.35deg, #FC4A1A -36.03%, #F7B733 128.44%); width: 100px; height: 64px;
+           border-radius: 40px 40px 40px 0px;">Hello,i’m</h6>
+            <h1>Mr. Beans</h1>
+            <p class="mt-4 mb-4 text-center">FULL-STACK DEVELOPER | UX/UI DESIGNER | FREELANCER</p>
+<div class="d-flex">
+            <img src="./imges/Twitter.png" alt="...">
+            <img src="./imges/BE.png" alt="...">
+            <img src="./imges/Ellipse 2.png" alt="...">
+            <img src="./imges/Group 8.png" alt="...">
+        </div>
+            <div  class=" mt-4"><button style=" width: 170px; height: 40px ; text-align: center; margin-bottom: 50px;
+                background: linear-gradient(108.35deg, #FC4A1A -36.03%, #F7B733 128.44%); font-size: 20px; font-weight: bold;  border-radius: 50px; border: none; color: white;">Download CV</button>
+               </div>
+        </div>
+
+        <div class="pt-5 "><img src="./imges/iPhone 13.png"  alt=""></div>
+
+
+    </div>
+
+    <!-- About bage -->
+    <div class=" about_page d-flex justify-content-evenly pt-5 text-light pb-5" style="background-color: #212529;">
+        <div>
+            <div class=" position-relative">
+                <img src="./imges/image 2.png " class="position-relative " alt="">
+                <img src="./imges/image 7.png" alt="" style="position: absolute; bottom: 132px; left: 63px;">
+                <img src="./imges/image 8.png" alt="" style="position: absolute; bottom: 118px; left: 119px;">
+                <img src="./imges/image 9.png" alt="" style="position: absolute; bottom: 124px; left:183px;">
+                <h6 class="mt-5">Certifications</h6>
+                <h1 class="mt-4">Ahmed Eid</h1>
+            </div>
+        </div>
+
+        <div class="about_text ">
+            <h2 class="fs-1 fw-bold text-center mb-5 mt-5"><span class="highlight">A</span>bout me</h2>
+            <p style="  padding-bottom: 30px;">I'm Ahmed Eid, I'm 27 years old, I currently work
+                independently as a fullstack, UX|UI designer and video game designer.</p>
+            <p style="">I currently have a video game studio where I spend my time mixing ideas from all
+                my work to generate quality stories that everyone can enjoy.</p>
+        </div>
+    </div>
+
+
+    <!-- Services page -->
+
+    <div class="services-page text-light container-fluid pt-5 " style="background-color:  #27323E;">
+        <h2 class="fs-1 fw-bold text-center mb-5"><span class="highlight">M</span>y Services</h2>
+
+
+        <div class=" services_cont d-flex justify-content-around  ">
+            <div class="">
+                <div class="d-flex mb-5 ms-4 ">
+                    <div class="">
+                        <h3>PHOTOGRAPHY</h3>
+                        <p style="width: 250px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+
+                            doloremque excepturi sit odit impedit, voluptas.</p>
+                    </div>
+                    <div class="gradient-border">
+
+                        <img src="./imges/Vector.png" alt="Image" class="" style="width: 40px; height: 40px; ">
+                    </div>
+
+                </div>
+
+                <div class="d-flex mb-5 ms-4 ">
+                    <div class="">
+                        <h3>UI/UX DESIGN</h3>
+                        <p style="width: 250px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+
+                            doloremque excepturi sit odit impedit, voluptas.</p>
+                    </div>
+
+                    <div class="gradient-border">
+
+                        <img src="./imges/Vector.png" alt="Image" class="" style="width: 40px; height: 40px; ">
+                    </div>
+                </div>
+
+                <div class="d-flex mb-5 ms-4 ">
+                    <div class="">
+                        <h3>WEB DESIGN </h3>
+                        <p style="width: 250px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+
+                            doloremque excepturi sit odit impedit, voluptas.</p>
+                    </div>
+
+                    <div class="gradient-border">
+
+                        <img src="./imges/Vector.png" alt="Image" class="" style="width: 40px; height: 40px; ">
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="d-flex mb-5">
+                    <div class="gradient-border">
+
+                        <img src="./imges/Vector.png" alt="Image" class="" style="width: 40px; height: 40px; ">
+                    </div>
+                    <div class="">
+                        <h3>WEB DEVELOPMENTD</h3>
+                        <p style="width: 250px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                            doloremque excepturi sit odit impedit, voluptas.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="d-flex mb-5">
+                    <div class="gradient-border">
+
+                        <img src="./imges/Vector.png" alt="Image" class="" style="width: 40px; height: 40px; ">
+                    </div>
+                    <div class="">
+                        <h3>3D DESIGN</h3>
+                        <p style="width: 250px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+
+                            doloremque excepturi sit odit impedit, voluptas.</p>
+                    </div>
+
+                </div>
+
+                <div class="d-flex mb-5">
+                    <div class="gradient-border">
+
+                        <img src="./imges/Vector.png" alt="Image" class="" style="width: 40px; height: 40px; ">
+                    </div>
+                    <div class="">
+                        <h3>2D DESIGN</h3>
+                        <p style="width: 250px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                            doloremque excepturi sit odit impedit, voluptas.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- portfolio page -->
+    <div class=" text-light pt-5 container-fluid" style="background-color: #212529;">
+        <h2 class="fs-1 fw-bold text-center mb-5"><span class="highlight">M</span>y portfolio</h2>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-12">
+                <div class="d-flex " style="width: 100%; ">
+
+                    <div style="width: 100%; "><img src="./imges/Rectangle 27.png" alt="" style="width: 100%; "></div>
+
+                    <div class=" d-flex flex-column " style="width: 100%; ">
+                        <div> <img src="./imges/Rectangle 28.png" alt="" style="width: 100%; "></div>
+                        <div> <img src="./imges/Rectangle 29.png" alt="" style="width: 100%; "></div>
+                    </div>
+
+                </div>
+
+                <div> <img src="./imges/Rectangle 30.png" alt="" style="width: 100%;  "></div>
+
+            </div>
+
+
+            <div class="col-lg-4 col-md-12">
+
+
+                <div style="width: 100%; ">
+                    <img src="./imges/Rectangle 31.png" alt="" style="width: 100%; "></div>
+
+                <div class="d-flex" style="width: 100%;">
+
+                   <div style="width: 100%;"><img src="./imges/Rectangle 32.png" alt="" style="width: 100%;"></div>
+
+                  <div style="width: 100%;"> <img src="./imges/Rectangle 33.png" alt="" style="width: 100%; "></div> 
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="d-flex " style="width: 100%;"> 
+                 <div style="width: 100%;">   <img src="./imges/Rectangle 35.png" alt="" style="width: 100%; "></div>
+
+                   <div style="width: 100%;" > <img src="./imges/Rectangle 34.png" alt="" style="width: 100%; "></div>
+                </div>
+                <div><img src="./imges/Rectangle 36.png" alt="" style="width: 100%; "></div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Blog-page -->
+
+    <div class="position-relative  text-center  text-light p-5" style="background-color: #27323E;">
+        <h2 class="fs-1 fw-bold text-center mb-5"><span class="highlight">M</span>y Blog</h2>
+
+
+        <div class="first_rout " >
+            <img src="./imges/Rectangle 37.png" alt="">
+            <img src="./imges/Rectangle 41.png" alt="">
+            <img src="./imges/Rectangle 42.png" alt="" class="third_pic">
+        </div>
+
+        <div class="second_rout " style="margin-top: -90px;">
+            <img src="./imges/Rectangle 38.png" alt="" class="">
+            <img src="./imges/Rectangle 40.png" alt="">
+        </div>
+
+        <div  class=" third_rout text-align-center " style="margin-top: -90px;">
+            
+            <img src="./imges/Rectangle 39.png" alt=""></div>
+
+    </div>
+
+<!-- GET IN TOUCH -->
+
+
+<div class="container-fluid text-light pt-5 pb-5" style="background-color: #212529;">
+<h2 class="fs-1 fw-bold text-center mb-5"><span class="highlight">G</span>et in Toutch</h2>
+
+<div class="d-flex  justify-content-around contact-info">
+
+    
+<div> <form action="" style="background-color: #212529;">
+<div>
+<input type="text" placeholder="first name" style="width: 150px; " class="input_form m-3">
+<input type="text" placeholder="last name" style=" width: 150px;" class="input_form ">
+</div>
+
+<div><input type="email" placeholder="email" style=" width: 300px; " class="input_form m-3 "></div>
+<textarea name="message" id="" placeholder="message" 
+style=" width: 300px;height: 200px; border-radius: 20px; resize: none;"
+ class="input_form m-3"></textarea>
+</form>
+ <div style="text-align: center;"><button style=" width: 130px; height: 40px ; text-align: center; margin-bottom: 50px;
+ background: linear-gradient(108.35deg, #FC4A1A -36.03%, #F7B733 128.44%); ; border-radius: 50px; border: none; color: white;">Send</button>
+</div>
+</div>
+
+
+<div class="pt-3 ps-3  rounded" style="background: linear-gradient(108.35deg, #FC4A1A -36.03%, #F7B733 128.44%);
+ font-family: Roboto;">
+    <h4>Contact Info</h4>
+    <p style="width: 300px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro fugit cum dolore.</p>
+    <p style="width: 300px;"><i class="bi bi-crosshair2 me-3"></i><strong>Address:</strong> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, numquam.</p>
+    <p><i class="bi bi-envelope-fill me-3" ></i><strong>Email:</strong> ahmedeia@gmail.com,<br> nourhansoliman@gmail.com</p>
+    <p><i class="bi bi-phone-fill me-3"></i><strong>Phone:</strong> +52 671 114 3273</p>
+    <p><i class="bi bi-telephone-fill me-3"></i><strong>Office:</strong> Beans studio</p>
+    <p><i class="bi bi-skype me-3"></i><strong>Skype:</strong> sadfasd.skype</p>
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- Testimonial page -->
+    <div class=" Testimonial container-fluid text-light pt-5 " style="background-color: #27323E;">
+        <h2 class="fs-1 fw-bold text-center mb-5"><span class="highlight">T</span>estimonial</h2>
+
+        <div class="row mb-2" style="font-family: Epilogue; ">
+            <div class="col mb-2">
+                <div class="bg-white text-dark d-flex flex-column  p-3"> 
+                    <p class="" style=" font-size: 20px;">
+                    This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+                    </p>
+                    <div class="d-flex ">
+                        <img src="./imges/Client Image.png" alt="" class=" me-3" style="width: 70px; height: 70px;">
+                        <div>
+                            <div class="">
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                            </div>
+                            <h5 style="  font-size: 20px;">Gemma Nolen</h5>
+                            <h6 class=" ms-2">Google</h6>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+            
+            <div class="col mb-2">
+                <div class="bg-white text-dark d-flex flex-column  p-3"> 
+                    <p class=" " style=" font-size: 20px;">
+                    This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+                    </p>
+                    <div class="d-flex ">
+                        <img src="./imges/Client Image.png" alt="" class=" me-3" style="width: 70px; height: 70px;">
+                        <div>
+                            <div class="">
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                            </div>
+                            <h5 style="  font-size: 20px;">Gemma Nolen</h5>
+                            <h6 class=" ms-2">Google</h6>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+              
+            <div class="col mb-2">
+                <div class="bg-white text-dark d-flex flex-column  p-3"> 
+                    <p class=""  style=" font-size: 20px;">
+                    This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+                    </p>
+                    <div class="d-flex ">
+                        <img src="./imges/Client Image.png" alt="" class=" me-3" style="width: 70px; height: 70px;">
+                        <div>
+                            <div class="">
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                            </div>
+                            <h5 style="  font-size: 20px;">Gemma Nolen</h5>
+                            <h6 class=" ms-2">Google</h6>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+
+
+        <div class="row " style="font-family: Epilogue; ">
+            <div class="col mb-2">
+                <div class="bg-white text-dark d-flex flex-column  p-3"> 
+                    <p class="" style=" font-size: 20px;">
+                    This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+                    </p>
+                    <div class="d-flex ">
+                        <img src="./imges/Client Image.png" alt="" class=" me-3" style="width: 70px; height: 70px;">
+                        <div>
+                            <div class="">
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                            </div>
+                            <h5 style="  font-size: 20px;">Gemma Nolen</h5>
+                            <h6 class=" ms-2">Google</h6>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+            <div class="col mb-2">
+                <div class="bg-white text-dark d-flex flex-column  p-3"> 
+                    <p class="" style=" font-size: 20px;">
+                    This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+                    </p>
+                    <div class="d-flex ">
+                        <img src="./imges/Client Image.png" alt="" class=" me-3" style="width: 70px; height: 70px;">
+                        <div>
+                            <div class="">
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                            </div>
+                            <h5 style="  font-size: 20px;">Gemma Nolen</h5>
+                            <h6 class=" ms-2">Google</h6>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+              
+            <div class="col mb-2">
+                <div class="bg-white text-dark d-flex flex-column  p-3"> 
+                    <p class="" style=" font-size: 20px;">
+                    This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+                    </p>
+                    <div class="d-flex ">
+                        <img src="./imges/Client Image.png" alt="" class=" me-3" style="width: 70px; height: 70px;">
+                        <div>
+                            <div class="">
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                                <i class="bi bi-star-fill " style="margin-right: 5px;"></i>
+                            </div>
+                            <h5 style="  font-size: 20px;">Gemma Nolen</h5>
+                            <h6 class=" ms-2">Google</h6>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+
+
+
+
+      </div>
+
+<!-- Featured project -->
+<div class="featured-project  pt-5 pb-5 text-light m-auto  " style="background-color: #212529;">
+    <div class="container">
+        <h5 style="color: #FC4A1A;">Featured Project</h5>
+        <h2>Example Project</h2>
+        <div class="row text-center">
+            <div class="col-lg-6 col-sm-12  ">
+                <div class=" description1 position-relative  mt-5" style="z-index: 12;">
+                    <p style="background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, 
+                     rgba(105, 59, 147, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%,
+                      rgba(131, 48, 12, 0.542) 100%); padding: 20px; border-radius: 10px;">
+                        A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+                    </p>
+                </div>
+                
+                                            
+            </div>
+            <div class="col-lg-6 col-sm-12  ">
+                <div class="featured_img m-auto mt-5" style="background-color: #FC4A1A;text-align: end; height: 330px; display: flex; justify-content: end ; border-radius: 20px; align-items: end;">
+                    <img src="./imges/Screenshot 2022-09-20 at 11.44 1.png" alt="" style=" width: 93%; height: 300px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ################ -->
+
+
+<div class="featured-project  pt-5 pb-5 m-auto text-light" style="background-color: #212529;">
+    <div class="container">
+        <h5 style="color: #FC4A1A;">Featured Project</h5>
+        <h2>Example Project</h2>
+        <div class="row ">
+
+            <div class="col-lg-6 col-sm-12  ">
+                <div class="featured_img  m-auto mt-5 " style="background-color: #FC4A1A;text-align: end; height: 330px; display: flex; justify-content:start ; border-radius: 20px; align-items: end;">
+                    <img src="./imges/Ssscreenshot 2022-09-20 at 11.44 1.png" alt="" style="  width: 93%;height: 300px;">
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 ">
+                <div class="description2 mt-5 position-relative " style="  z-index: 12;">
+                    <p style="background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(213, 56, 187, 0.2) 0%,
+                     rgba(110, 191, 244, 0.0447917) 77.08%,
+                      rgba(70, 144, 213, 0) 100%) ;
+
+                    padding: 20px; border-radius: 10px;">
+                        A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+                    </p>
+                </div>
+                             
+            </div>
+           
+        </div>
+    </div>
+</div>
+<!-- footer -->
+
+<div class="footer text-light text-center  pt-5 " style="background-color: #27323E; ">
+    <div class="container ">
+        <div class="row ">
+            <div class="col-md-3">
+                <h5>Your name.</h5>
+                <p style="color: #aaa;">desc</p>
+            </div>
+            <div class="col-md-3 ">
+                <h6  style="color: #aaa;">Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-4"><a href="#" style=" text-decoration: none; color: #FFFFFF;">Home</a></li>
+                    <li class="mb-4"><a href="#" style=" text-decoration: none; color: #FFFFFF;">Shop</a></li>
+                    <li class="mb-4"><a href="#" style=" text-decoration: none; color: #FFFFFF;">About</a></li>
+                    <li class="mb-4"><a href="#" style=" text-decoration: none; color: #FFFFFF;">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h6  style="color: #aaa;">Help</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-4"><a href="#" style=" text-decoration: none; color: #FFFFFF;">Payment Options</a></li>
+                    <li class="mb-4"><a href="#" style=" text-decoration: none; color: #FFFFFF;">Returns</a></li>
+                    <li class="mb-4"><a href="#" style=" text-decoration: none; color: #FFFFFF;">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h6  style="color: #aaa;">Newsletter</h6>
+                <form class="d-flex footer">
+                    <input type="email" class="border-bottom me-3 mt-4" placeholder="Enter Your Email Address" 
+                    style="background-color: transparent; border: none;">
+                     <button type="submit" class="border-bottom mt-4"
+                     style="background-color: transparent; border: none; color: #FFFFFF;">SUBSCRIBE</button> 
+                </form>
+            </div>
+        </div>
+        <hr style="color:#FFFFFF;">
+        <div class="row text-start">
+            <div class="col-md-12  ">
+                <p>2024 furino. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
